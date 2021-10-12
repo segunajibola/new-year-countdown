@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("images/showcase.jpg");
+    background-image: linear-gradient(215deg, #150924 0%, #f5f7fa 50%);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -18,7 +18,8 @@ body {
 h1 {
     font-weight: normal;
     font-size: 4rem;
-    margin-top: 5rem;
+    margin: 3.5rem;
+    text-align: center;
 }
 
 .countdown-container {
@@ -40,4 +41,14 @@ h1 {
 
 .countdown-el span {
     font-size: 1.3rem;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0px 10px;
+}
+
+footer p .love {
+    color: red;
+    font-size: 23px;
 }
